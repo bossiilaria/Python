@@ -1,17 +1,47 @@
 # Website Scraping
 
-Find this README file for this Website Scraping poject here https://github.com/bossiilaria/Python
+Find this README file for this Website Scraping project 
+[here](https://github.com/bossiilaria/Python)
 
-## This is my first real life project after I have received my certificate in Python on April 3 2021: YAY! :grinning:
+***
 
-* Overview
-* Libraries
-  * BS4
+## Table of Contents
+- [Website Scraping](#website-scraping)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Status](#status)
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [FAQs](#faqs)
 
-The task given is to do a competitive analysis of our site http://www.cheapoair.com/ (COA) versus our competitors. 
+***
 
-The first element I am interested in finding is the price of a flight I intend to purchase soon from NYC to Lemezia Terme. I go to COA site and start my search.
+## Description
+This is my first real-life project after I have received my certificate in Python on April 3, 2021: YAY! :grinning:
+The task assigned is to do a competitive analysis of our [site](http://www.cheapoair.com/) versus our competitors. 
 
-I get to this page
+***
 
-https://www.cheapoair.com/air/listing?&d1=NYC&r1=SUF&dt1=07/01/2021&d2=SUF&r2=NYC&dt2=07/09/2021&tripType=ROUNDTRIP&cl=ECONOMY&ad=1&se=0&ch=0&infs=0&infl=0
+## Status
+![Travis (.org)](https://img.shields.io/travis/rust-lang/rust?color=bright%20green&label=In%20Development&logo=python&logoColor=green&style=for-the-badge)
+
+***
+
+## Introduction
+I intend to use my newly acquired skills as a python developer to add value for my employer, in particular help building a lean and efficient organization by maximizing automation and building next-generation platforms.
+
+***
+
+## Technologies
+* [Python](https://www.python.org/downloads/windows/): Version 3
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/): Version v4. 9.3 
+* [Selenium](https://www.selenium.dev/documentation/en/): Version 4.0. 0 Alpha 5
+* [Webdriver](https://www.selenium.dev/documentation/en/webdriver/): 
+* [Webdriver Chrome Options](https://www.selenium.dev/selenium/docs/api/rb/Selenium/WebDriver/Chrome/Options.html)
+
+***
+
+## FAQs
+None yet
+
+
