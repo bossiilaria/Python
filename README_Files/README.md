@@ -6,8 +6,6 @@ Find this README file for this Website Scraping project
 ***
 
 ## Table of Contents
-- [Website Scraping](#website-scraping)
-  - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Status](#status)
   - [Introduction](#introduction)
