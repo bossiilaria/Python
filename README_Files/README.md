@@ -33,6 +33,8 @@ I intend to use my newly acquired skills as a python developer to add value for 
 ## Technologies
 * [Python](https://www.python.org/downloads/windows/): Version 3
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/): Version v4. 9.3 
+* [Numpy](https://numpy.org/) Version v1.20.0
+* [Pandas](https://pandas.pydata.org/) Version 1.2.4
 * [Selenium](https://www.selenium.dev/documentation/en/): Version 4.0. 0 Alpha 5
 * [Webdriver](https://www.selenium.dev/documentation/en/webdriver/): 
 * [Webdriver Chrome Options](https://www.selenium.dev/selenium/docs/api/rb/Selenium/WebDriver/Chrome/Options.html)
