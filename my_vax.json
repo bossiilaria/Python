@@ -1,26 +1,37 @@
 [
     {
-        "% Vaccination Rate": 4.1596479284,
-        "People Vaccinated": "184,940,823",
+        "% Vaccination Rate": 0.07530151,
+        "People Vaccinated": 334795720,
         "Population": 4446069143,
-        "Region": "APAC"
+        "Region": "APAC",
+        "Vax Rate": 7.5301509993
     },
     {
-        "% Vaccination Rate": 4.474744979,
-        "People Vaccinated": "102,597,276",
+        "% Vaccination Rate": 0.0649723543,
+        "People Vaccinated": 148969083,
         "Population": 2292807221,
-        "Region": "EMEA "
+        "Region": "EMEA",
+        "Vax Rate": 6.4972354254
     },
     {
-        "% Vaccination Rate": 11.7053928611,
-        "People Vaccinated": "50,386,754",
+        "% Vaccination Rate": 0.18664792,
+        "People Vaccinated": 80344017,
         "Population": 430457607,
-        "Region": "LATAM"
+        "Region": "LATAM",
+        "Vax Rate": 18.6647920012
     },
     {
-        "% Vaccination Rate": 31.1074407885,
-        "People Vaccinated": "182891341",
+        "% Vaccination Rate": 0.3478241992,
+        "People Vaccinated": 204497807,
         "Population": 587934386,
-        "Region": "NOAM"
+        "Region": "NOAM",
+        "Vax Rate": 34.7824199213
+    },
+    {
+        "% Vaccination Rate": 0.0990821242,
+        "People Vaccinated": 768606627,
+        "Population": 7757268357,
+        "Region": "Total ",
+        "Vax Rate": 9.9082124226
     }
 ]
