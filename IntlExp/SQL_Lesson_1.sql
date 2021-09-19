@@ -1306,4 +1306,5 @@ from datascience.BookingDetails bd
 
 show PROCESSLIST
 
+
 kill query where query_id = '42'
