@@ -445,7 +445,8 @@ ValidatingCarrier, YMSString
 FROM searches.searchlog; 
 
 /*can use the ; to separate queries, NOT really needed in DBeaver, because it ONLY executes WHERE the cursor is
-'s' is an alias - useful when you do a JOIN*/
+'s' is an alias - useful when you do a 
+*/
 
 /* Try different types of aggregations to understand the structure of clickhouse */
 
@@ -487,6 +488,7 @@ AND FullyVaccinated = 1
 AND Covid19Test = 'NOT_REQUIRED_COVID_19_TEST'
 
 
+
 /*Aggregate Sherpa Data*/
 
 select top 100 CountryCode, CountryName, FullyVaccinated, TravelOpenness, EntryRestrictions, Covid19Test, Quarantine,
@@ -524,6 +526,7 @@ group by SearchDepartureToCountry
 order by searches desc
 
 
+
 /*Let's understand why. This is because of the way I aggregated. I need to take a step back and learn 
  * about FRACTALS! The trick is to get the whole aggregation and call it an alias like we did below. Only THEN come back 
  * on top and start selecting from! 
@@ -554,6 +557,8 @@ select distinct DestCountry, DestCountryName from datascience.BookingDetails -- 
 ) cm on sa.SearchDepartureToCountry = cm.DestCountry 
 join datascience.SherpaData sherpa
 ON sherpa.CountryName = cm.DestCountryName
+
+
 
 /*First see what sa and cm look like*/
 
@@ -979,6 +984,10 @@ order by num desc
 select DestCountry, DestCountryName, RPT_USD
 from datascience.BookingDetails
 
+select top 10 DestCountry, DestCountryName, RPT_USD
+from datascience.BookingDetails
+
+
 /*AUG 28 
  * Using comparison operators with joins. In the lessons so far, you've only joined tables by exactly matching values 
  * from both tables. However, you can enter any type of conditional statement into the ON clause.*/
@@ -1304,7 +1313,538 @@ order by y_ear desc
 select *
 from datascience.BookingDetails bd 
 
+select top 100 BookDate, Month_BookDate, Year_BookDate, MonthYear_BookDate, 
+Day_BookDate, OutBoundDateTime, BookDateTime, BookingDayOfWeek 
+from datascience.BookingDetails
+
+select top 10 BookingDay, BookingWeekDay, FlightDay, FlightWeekday, Pax, Bookings
+from datascience.midt_raw mr 
+
+select top 10 FlightDate, FlightWeekday
+from datascience.midt_raw_v9 mr 
+
+select top 100 * from datascience.BookingDetails
+
+
+ /*Code from Aditya doesn't work */
+
+
+SELECT top 100 BookDate as bookdate, Month_BookDate as month_bookdate FROM datascience.BookingDetails
+ 
+/*WK's Request*/ 
+ 
+SELECT * from datascience.SherpaData where FullyVaccinated =1 and TravelOpenness in ('LEVEL_1', 'LEVEL_2')
+
+select SearchDepartureToCountry, num, IsBooked, sherpa.*
+FROM 
+(
+select top 100 SearchDepartureToCountry, count(1) num, IsBooked
+from searches.searchlog s 
+where SearchDate = today()
+and IsCheapestGlobal = 1 
+group by SearchDepartureToCountry, IsBooked
+order by num desc
+) sa
+JOIN 
+(
+select distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+where IsBooked = 0
+
+
+
+(
+
+select SearchGuid, SearchDepartureToCountry, MAX(IsBooked) as is_search_booked
+from searches.searchlog s 
+where SearchDate = today() 
+group by SearchGuid, SearchDepartureToCountry
+
+)
+
+
+select SearchDepartureToCountry, num_searches, num_bookings, sherpa.*
+FROM 
+(
+	select SearchDepartureToCountry, count(1) num_searches, sum(is_search_booked) num_bookings
+	from 
+	(
+		select SearchGuid, SearchDepartureToCountry, MAX(IsBooked) as is_search_booked
+		from searches.searchlog s 
+		where SearchDate = today()
+		group by SearchGuid, SearchDepartureToCountry
+	)
+	group by SearchDepartureToCountry
+	--order by num desc
+) sa
+JOIN 
+(
+select distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+
+select SearchDepartureToCountry, num_searches, num_bookings, sherpa.*
+FROM 
+(
+select SearchDepartureToCountry, count(1) num_searches, sum(is_search_booked) num_bookings
+from 
+(
+select SearchGuid, SearchDepartureToCountry, MAX(IsBooked) as is_search_booked
+from searches.searchlog s 
+where SearchDate = today() - 6
+group by SearchGuid, SearchDepartureToCountry
+)
+group by SearchDepartureToCountry
+--order by num desc
+) sa
+JOIN 
+(
+select distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+
+
+/*Break dow the tables you want to join*/
+
+(
+
+select SearchDepartureToCountry, num_searches, num_bookings, sherpa.*
+FROM 
+(
+select SearchDepartureToCountry, count(1) num_searches, sum(is_search_booked) num_bookings
+from 
+(
+select SearchGuid, SearchDepartureToCountry, MAX(IsBooked) as is_search_booked
+from searches.searchlog s 
+where SearchDate = today() - 6
+group by SearchGuid, SearchDepartureToCountry
+)
+group by SearchDepartureToCountry
+--order by num desc
+) sa
+JOIN 
+(
+select distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+
+) table1
+
+(
+
+select Year_BookDate 
+from datascience.BookingDetails bd 
+where Year_BookDate >= 2019
+order by Year_BookDate 
+
+) table2
+
+
+
+/*Try joining these tables*/
+select SearchDepartureToCountry, count(1) num_searches, sum(is_search_booked) num_bookings
+from 
+(
+select SearchGuid, SearchDepartureToCountry, MAX(IsBooked) as is_search_booked
+from searches.searchlog s 
+where SearchDate = today() - 6
+group by SearchGuid, SearchDepartureToCountry
+)
+group by SearchDepartureToCountry --search_table
+
+select distinct DestCountry, DestCountryName, Year_BookDate from datascience.BookingDetails  
+where Year_BookDate >= 2019
+order by Year_BookDate --booking_date_table
+
+
+/*NOV 17*/
+select DestCountry, DestCountryName, Year_BookDate, count(1) num_transactions 
+from datascience.BookingDetails  
+where Year_BookDate = 2019
+group by DestCountry, DestCountryName, Year_BookDate
+
+select DestCountry, DestCountryName, Year_BookDate, count(1) num_transactions 
+from datascience.BookingDetails  
+where Year_BookDate = 2019 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+
+select *
+from datascience.BookingDetails
+where Year_BookDate >= 2019
+
+
+/*Nov 19*/
+select DestCountry, DestCountryName, TID_2019, TID_2021
+FROM
+(
+select DestCountry, DestCountryName, count(1) TID_2019
+from datascience.BookingDetails  
+where Year_BookDate = 2019 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2019
+JOIN
+(
+select DestCountry, DestCountryName, count(1) TID_2021
+from datascience.BookingDetails  
+where Year_BookDate = 2021 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2021
+ON table_2019.DestCountryName = table_2021.DestCountryName
+
+
+
+/*Output table would be showing DestCountry, DestCountryName, num_transactions for Year BOTH 2019 (call this TID_2019)
+ * AND 2021 (call this TID_2021).
+ * select DestCountry, DestCountryName, TID_2019, TID_2021
+ * from datascience.BookingDetails  
+ * For every country I want to see the num_transactions for 2019 and for 2021
+ * group by DestCountry, DestCountryName
+ * values num_transactions
+ * 
+ * Always think in terms of GROUPS and VALUES
+ * Work on queries in DBV
+ * Better to do the first pull in python
+ * NEXT: join this table on to the Sherpa searches and bookings: this way we have the sherpa rating, num searches, 
+ * transactions, historical data. Then we can start to model the opportunity size for a country for which we had 
+ * lots of booking in 2019 than in 2021. Can see the ratio TID_2019/TID/2021
+ * */
+
+/*Nov 20 
+ * The table I want will be showing DestCountry, DestCountryName, 
+ * num_transactions for BOTH year 2019 (call this TID_2019) and year 2021 (TID_2021), searches, and finally sherpa data.
+ * Let's leave the sherpa data out for now as it adds an extra layer of complexity
+ * THIS QUERY BELOW HAS 2 ISSUES: the SearchDate for the num_searches should not be today, it returns an empty table*/
+
+SELECT DestCountry, DestCountryName, TID_2019, TID_2021, SearchDepartureToCountry, num_searches
+FROM
+(
+select DestCountry, DestCountryName, TID_2019, TID_2021
+FROM
+(
+select DestCountry, DestCountryName, count(1) TID_2019
+from datascience.BookingDetails  
+where Year_BookDate = 2019 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2019
+JOIN
+(
+select DestCountry, DestCountryName, count(1) TID_2021
+from datascience.BookingDetails  
+where Year_BookDate = 2021 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2021
+ON table_2019.DestCountryName = table_2021.DestCountryName
+) historical_TID
+JOIN
+(
+select SearchDepartureToCountry, count(1) num_searches
+from searches.searchlog s 
+--where SearchDate >='01-01-2019' and SearchDate <='12-31-2019'
+where SearchDate = today()
+group by SearchDepartureToCountry
+) table_searches
+ON historical_TID.DestCountryName = table_searches.SearchDepartureToCountry 
+/*primary key DestCountryName, foreign key 
+SearchDepartureToCountry */
+
+/*I already have the table with searches and Sherpa data. All I need to do now is to join the historical
+ * table with this table with the searches + Sherpa */
+
+/*Historical*/
+
+select DestCountry, DestCountryName, TID_2019, TID_2021
+FROM
+(
+select DestCountry, DestCountryName, count(1) TID_2019
+from datascience.BookingDetails  
+where Year_BookDate = 2019 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2019
+JOIN
+(
+select DestCountry, DestCountryName, count(1) TID_2021
+from datascience.BookingDetails  
+where Year_BookDate = 2021 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2021
+ON table_2019.DestCountryName = table_2021.DestCountryName
+
+
+/*Searches + Sherpa*/
+select SearchDepartureToCountry, num_searches, sherpa.*
+FROM 
+(
+select SearchDepartureToCountry, count(1) num_searches
+from searches.searchlog s 
+where SearchDate = today() 
+group by SearchDepartureToCountry 
+) sa 
+JOIN 
+(
+select distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+
+/*The table I want to see has DestCountry, DestCountryName, TID_2019, TID_2021, num_searches, Sherpa/
+ * Each row is a country 
+ */
+
+select DestCountry, DestCountryName, TID_2019, TID_2021, searches_plus_sherpa.*
+from
+(
+select DestCountry, DestCountryName, TID_2019, TID_2021
+FROM
+(
+select DestCountry, DestCountryName, count(1) TID_2019
+from datascience.BookingDetails  
+where Year_BookDate = 2019 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2019
+JOIN
+(
+select DestCountry, DestCountryName, count(1) TID_2021
+from datascience.BookingDetails  
+where Year_BookDate = 2021 and DestCountryName != 'United States'
+group by DestCountry, DestCountryName, Year_BookDate
+) table_2021
+ON table_2019.DestCountryName = table_2021.DestCountryName
+) historical
+JOIN 
+(
+select SearchDepartureToCountry, num_searches, sherpa.*
+FROM 
+(
+select SearchDepartureToCountry, count(1) num_searches
+from searches.searchlog s 
+where SearchDate = today() 
+group by SearchDepartureToCountry 
+) sa 
+JOIN 
+(
+select distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+) searches_plus_sherpa
+ON historical.DestCountryName = searches_plus_sherpa.sherpa.CountryName
+order by num_searches desc
+
+
+/*HOMEWORK
+ * Create the ratio, visualize the size as the ratio, 
+the ones with bigger size is where we are missing the market (not recovered yet from 2019)
+Write the whole big query that Sara shared - Create session ID = 23 */
+
+select
+	DestCountry,
+	DestCountryName,
+	TID_2019,
+	TID_2021,
+	searches_plus_sherpa.*
+from
+	(
+	select
+		DestCountry,
+		DestCountryName,
+		TID_2019,
+		TID_2021
+	FROM
+		(
+		select
+			DestCountry,
+			DestCountryName,
+			count(1) TID_2019
+		from
+			datascience.BookingDetails
+		where
+			Year_BookDate = 2019
+			and DestCountryName != 'United States'
+		group by
+			DestCountry,
+			DestCountryName,
+			Year_BookDate) table_2019
+	JOIN (
+		select
+			DestCountry,
+			DestCountryName,
+			count(1) TID_2021
+		from
+			datascience.BookingDetails
+		where
+			Year_BookDate = 2021
+			and DestCountryName != 'United States'
+		group by
+			DestCountry,
+			DestCountryName,
+			Year_BookDate ) table_2021 ON
+		table_2019.DestCountryName = table_2021.DestCountryName
+        ) historical
+JOIN (
+	select
+		SearchDepartureToCountry,
+		num_searches,
+		sherpa.*
+	FROM
+		(
+		select
+			SearchDepartureToCountry,
+			count(1) num_searches
+		from
+			searches.searchlog s
+		where
+			SearchDate = today()
+		group by
+			SearchDepartureToCountry ) sa
+	JOIN (
+		select
+			distinct DestCountry,
+			DestCountryName
+		from
+			datascience.BookingDetails
+			-- DIY mapping table
+) cm on
+		sa.SearchDepartureToCountry = cm.DestCountry
+	join datascience.SherpaData sherpa ON
+		sherpa.CountryName = cm.DestCountryName
+	where
+		sherpa.FullyVaccinated = 1
+    ) searches_plus_sherpa ON
+	historical.DestCountryName = searches_plus_sherpa.sherpa.CountryName
+order by
+	num_searches desc
+    
+    /*Nov 21: next I need to fix the SearchDate, I don't want today I want all historical searches for 2019 and 2021
+ * Work on the searches_plus_sherpa table to get the searches not for today but for 2019 and 2021*/
+
+select
+	SearchDepartureToCountry,
+	num_searches,
+	sherpa.*
+FROM
+	(
+	
+	select
+		SearchDepartureToCountry,
+		count(1) num_searches
+	from
+		searches.searchlog s
+	where
+		YEAR(SearchDate) = '2019'
+	group by
+		SearchDepartureToCountry 
+		
+
+) sa
+JOIN 
+(
+	select
+		distinct DestCountry, DestCountryName from datascience.BookingDetails -- DIY mapping table
+		
+) cm on sa.SearchDepartureToCountry = cm.DestCountry 
+join datascience.SherpaData sherpa
+ON sherpa.CountryName = cm.DestCountryName
+
+
+   /*Temp Table Restructure*/
+
+select
+	DestCountry,
+	DestCountryName,
+	TID_2019,
+	TID_2021,
+	searches_plus_sherpa.*
+FROM
+	(--create temporary table historical as
+	select
+		DestCountry,
+		DestCountryName,
+		TID_2019,
+		TID_2021
+	from
+		(
+		select
+			DestCountry,
+			DestCountryName,
+			count(1) TID_2019
+		from
+			datascience.BookingDetails
+		where
+			Year_BookDate = 2019
+			and DestCountryName != 'United States'
+		group by
+			DestCountry,
+			DestCountryName,
+			Year_BookDate) table_2019
+	JOIN 
+            (
+            
+		select
+			DestCountry,
+			DestCountryName,
+			count(1) TID_2021
+		from
+			datascience.BookingDetails
+		where
+			Year_BookDate = 2021
+			and DestCountryName != 'United States'
+		group by
+			DestCountry,
+			DestCountryName,
+			Year_BookDate) table_2021 ON
+		table_2019.DestCountryName = table_2021.DestCountryName
+		) historical
+		JOIN 
+		(--create temporary table searches_plus_sherpa as
+		select
+			SearchDepartureToCountry,
+			num_searches,
+			sherpa.*
+		FROM
+			(
+			select
+				SearchDepartureToCountry,
+				count(1) num_searches
+			from
+				searches.searchlog s
+			where
+				SearchDate > today() - 30
+			group by
+				SearchDepartureToCountry) sa
+		JOIN (
+			select
+				distinct DestCountry,
+				DestCountryName
+			from
+				datascience.BookingDetails
+				-- DIY mapping table
+) cm on
+			sa.SearchDepartureToCountry = cm.DestCountry
+		join datascience.SherpaData sherpa ON
+			sherpa.CountryName = cm.DestCountryName
+		where
+			sherpa.FullyVaccinated = 1
+			
+			) searches_plus_sherpa ON
+			select
+				*
+			from
+				historical
+			join searches_plus_sherpa on
+				historical.DestCountryName = searches_plus_sherpa.sherpa.CountryName
+			order by
+				num_searches desc
+    
+
 show PROCESSLIST
 
 
 kill query where query_id = '42'
+
+
+
