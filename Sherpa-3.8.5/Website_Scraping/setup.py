@@ -1,0 +1,3 @@
+
+echo "selenium" > setup.py
+

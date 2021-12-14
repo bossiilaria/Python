@@ -1,0 +1,2267 @@
+[
+    {
+        "CountryName": "Aruba",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Aruba",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Afghanistan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Afghanistan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Angola",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Angola",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Anguilla",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Anguilla",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Albania",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Albania",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Andorra",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Andorra",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "United Arab Emirates",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "United Arab Emirates",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Argentina",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Argentina",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Armenia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Armenia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "American Samoa",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "American Samoa",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Antigua and Barbuda",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Antigua and Barbuda",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Australia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Australia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Austria",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Austria",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Azerbaijan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Azerbaijan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Burundi",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Burundi",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Belgium",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Belgium",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Benin",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Benin",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Burkina Faso",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Burkina Faso",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Bangladesh",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Bangladesh",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Bulgaria",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Bulgaria",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Bahrain",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Bahrain",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Bahamas",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Bahamas",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Bosnia and Herzegovina",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Bosnia and Herzegovina",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Belarus",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Belarus",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Belize",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Belize",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Bermuda",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Bermuda",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Bolivia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Bolivia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Brazil",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Brazil",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Barbados",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Barbados",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Brunei",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Brunei",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Bhutan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Bhutan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Botswana",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Botswana",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Central African Republic",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Central African Republic",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Canada",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Canada",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Cocos (Keeling) Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Cocos (Keeling) Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Switzerland",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Switzerland",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Chile",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Chile",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "China",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "China",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Ivory Coast",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Ivory Coast",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Cameroon",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Cameroon",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Democratic Republic of the Congo",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Democratic Republic of the Congo",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Congo",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Congo",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Cook Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Cook Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Colombia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Colombia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Comoros",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Comoros",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Cape Verde",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Cape Verde",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Costa Rica",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Costa Rica",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Cuba",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Cuba",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Christmas Island",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Christmas Island",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Cayman Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Cayman Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Cyprus",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Cyprus",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Czech Republic",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Czech Republic",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Germany",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Germany",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Djibouti",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Djibouti",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Dominica",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Dominica",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Denmark",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Denmark",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Dominican Republic",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Dominican Republic",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Algeria",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Algeria",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Ecuador",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Ecuador",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Egypt",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Egypt",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Eritrea",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Eritrea",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Spain",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Spain",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Estonia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Estonia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Ethiopia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Ethiopia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Finland",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Finland",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Fiji",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Fiji",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Falkland Islands (Islas Malvinas)",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Falkland Islands (Islas Malvinas)",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "France",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "France",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Faroe Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Faroe Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Micronesia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Micronesia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Gabon",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Gabon",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "United Kingdom",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "United Kingdom",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Georgia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Georgia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Guernsey",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Guernsey",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Ghana",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Ghana",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Gibraltar",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Gibraltar",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Guinea",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Guinea",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Guadeloupe",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Guadeloupe",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Gambia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Gambia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Guinea-Bissau",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Guinea-Bissau",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Equatorial Guinea",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Equatorial Guinea",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Greece",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Greece",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Grenada",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Grenada",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Greenland",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Greenland",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Guatemala",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Guatemala",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Guam",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Guam",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Guyana",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Guyana",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Hong Kong",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Hong Kong",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Honduras",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Honduras",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Croatia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Croatia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Haiti",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Haiti",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Hungary",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Hungary",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Indonesia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Indonesia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Isle of Man",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Isle of Man",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "India",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "India",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "British Indian Ocean Territory",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "British Indian Ocean Territory",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Ireland",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Ireland",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Iran",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Iran",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Iraq",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Iraq",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Iceland",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Iceland",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Israel",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Israel",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Italy",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Italy",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Jamaica",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Jamaica",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Jersey",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Jersey",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Jordan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Jordan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Japan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Japan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Kazakhstan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Kazakhstan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Kenya",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Kenya",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Kyrgyzstan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Kyrgyzstan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Cambodia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Cambodia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Kiribati",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Kiribati",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Saint Kitts and Nevis",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Saint Kitts and Nevis",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "South Korea",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "South Korea",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Kuwait",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Kuwait",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Laos",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Laos",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Lebanon",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Lebanon",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Liberia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Liberia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Libya",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Libya",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Saint Lucia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Saint Lucia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Liechtenstein",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Liechtenstein",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Sri Lanka",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Sri Lanka",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Lesotho",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Lesotho",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Lithuania",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Lithuania",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Luxembourg",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Luxembourg",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Latvia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Latvia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Macau",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Macau",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Morocco",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Morocco",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Monaco",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Monaco",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Moldova",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Moldova",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Madagascar",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Madagascar",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Maldives",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Maldives",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Mexico",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Mexico",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Marshall Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Marshall Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "North Macedonia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "North Macedonia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Mali",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Mali",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Malta",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Malta",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Myanmar",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Myanmar",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Montenegro",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Montenegro",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Mongolia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Mongolia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Northern Mariana Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Northern Mariana Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Mozambique",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Mozambique",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Mauritania",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Mauritania",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Montserrat",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Montserrat",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Martinique",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Martinique",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Mauritius",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Mauritius",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Malawi",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Malawi",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Malaysia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Malaysia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Namibia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Namibia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Niger",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Niger",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Norfolk Island",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Norfolk Island",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Nigeria",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Nigeria",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Nicaragua",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Nicaragua",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Niue",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Niue",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Netherlands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Netherlands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Norway",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Norway",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Nepal",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Nepal",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Nauru",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Nauru",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "New Zealand",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "New Zealand",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Oman",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Oman",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Pakistan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Pakistan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Panama",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Panama",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Pitcairn Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Pitcairn Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Peru",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Peru",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Philippines",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Philippines",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Palau",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Palau",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Papua New Guinea",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Papua New Guinea",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Poland",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Poland",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Puerto Rico",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Puerto Rico",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Portugal",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Portugal",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Paraguay",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Paraguay",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Palestinian Territories",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Palestinian Territories",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "French Polynesia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "French Polynesia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Qatar",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Qatar",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "R\u00c3\u00a9union",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "R\u00c3\u00a9union",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Romania",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Romania",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Russia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Russia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Rwanda",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Rwanda",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Saudi Arabia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Saudi Arabia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Sudan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Sudan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Senegal",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Senegal",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Singapore",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Singapore",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "South Georgia and the South Sandwich Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "South Georgia and the South Sandwich Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Saint Helena, Ascension and Tristan da Cunha",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Saint Helena, Ascension and Tristan da Cunha",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Solomon Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Solomon Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Sierra Leone",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Sierra Leone",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "El Salvador",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "El Salvador",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "San Marino",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "San Marino",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Somalia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Somalia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Serbia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Serbia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "S\u00c3\u00a3o Tom\u00c3\u00a9 and Pr\u00c3\u00adncipe",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "S\u00c3\u00a3o Tom\u00c3\u00a9 and Pr\u00c3\u00adncipe",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Suriname",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Suriname",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Slovakia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Slovakia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Slovenia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Slovenia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Sweden",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Sweden",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Eswatini",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Eswatini",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Seychelles",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Seychelles",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Syria",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Syria",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Turks and Caicos Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Turks and Caicos Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Chad",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Chad",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Togo",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Togo",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Thailand",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Thailand",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Tajikistan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Tajikistan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Tokelau",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Tokelau",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "East Timor",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "East Timor",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Tonga",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Tonga",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Trinidad and Tobago",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Trinidad and Tobago",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Tunisia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_3"
+    },
+    {
+        "CountryName": "Tunisia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Turkey",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Turkey",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Tuvalu",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Tuvalu",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Taiwan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Taiwan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Tanzania",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Tanzania",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Uganda",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Uganda",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Ukraine",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Ukraine",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "United States Minor Outlying Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "United States Minor Outlying Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "NO_INFORMATION"
+    },
+    {
+        "CountryName": "Uruguay",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Uruguay",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Uzbekistan",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Uzbekistan",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Vatican City",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Vatican City",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_1"
+    },
+    {
+        "CountryName": "Saint Vincent and the Grenadines",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Saint Vincent and the Grenadines",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Venezuela",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Venezuela",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "British Virgin Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "British Virgin Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "U.S. Virgin Islands",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "U.S. Virgin Islands",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Vietnam",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Vietnam",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Vanuatu",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Vanuatu",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Samoa",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "Samoa",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_4"
+    },
+    {
+        "CountryName": "South Africa",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "South Africa",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Zambia",
+        "FullyVaccinated": 0,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Zambia",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_2"
+    },
+    {
+        "CountryName": "Zimbabwe",
+        "FullyVaccinated": 1,
+        "TravelOpenness": "LEVEL_3"
+    }
+]
